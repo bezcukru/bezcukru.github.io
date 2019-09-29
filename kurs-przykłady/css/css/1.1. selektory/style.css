@@ -1,0 +1,84 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body 
+{
+    background-color: black;
+}
+/* ul li:first-child
+{
+    color: red;
+}
+ul li:last-child
+{
+    color: blue;
+} */
+/* p 
+{
+    color: blue;
+}
+p 
+{
+    color:red;
+}
+#link2 
+{
+    color:aqua;
+}
+.link 
+{
+    color: blueviolet;
+}
+ul > li 
+{
+    color: blue;
+} */
+div::before
+{
+    margin-top: 20px;
+    content: "*";
+    color: red;
+}
+.text 
+{
+    color: darkgreen;
+}
+.hover
+{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+}
+.hover:hover
+{
+    background-color: blue;
+}
+.focus
+{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 20px;
+}
+.focus:focus
+{
+    background-color: red;
+}
+.special li:nth-of-type(even)
+{
+    background-color: white;
+    color: navy;
+}
+.special li:nth-of-type(3n+3)
+{
+    background-color: navy;
+    color: white;
+}
+[type]
+{
+    background-color: orange;
+}

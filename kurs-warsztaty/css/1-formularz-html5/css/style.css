@@ -1,0 +1,66 @@
+
+form
+{
+    background-color: #213b50;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+}
+input
+{
+    display: block;
+    padding: 2px;
+    width: 300px;
+    height: 20px;
+    border: none;
+    background-color: #2b4a64;
+}
+select
+{
+    display: block;
+    background-color: #2b4a64;
+    color: white;
+    padding: 2px;
+    width: 300px;
+    height: 20px;
+    border: none;
+}
+textarea
+{
+    background-color: #2b4a64;
+    width: 300px;
+    height: 100px;
+}
+input:focus
+{
+    background-color: #4e708c;
+    border-color: white;
+    bord
+}
+textarea:focus
+{
+    background-color: #4e708c;
+    border-color: white;
+}
+input[type="radio"]
+{
+    display: inline;
+}
+label[for="message"]
+{
+    display: block;
+   
+}
+input[type="checkbox"]
+{
+    display: inline;
+}
+input[type="submit"]
+{
+    background-color: green;
+    text-transform: capitalize;
+    color: white;
+    padding:  10px;
+    height: 40px;
+    width: 80px;
+}

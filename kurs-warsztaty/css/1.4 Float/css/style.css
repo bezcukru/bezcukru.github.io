@@ -1,0 +1,8 @@
+img 
+{
+    height: 50%;
+    width: 50%;
+    float: left;
+    display: inline-block;
+    padding: 20px;
+}
