@@ -1,0 +1,26 @@
+.big
+{
+  width: 400px;
+  height: 400px;
+  background-color: #a6a9b6;
+  border: 10px solid #666360;
+  position: relative;
+}
+.box 
+{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+.orange
+{
+  background-color: #ff912e;
+  left: 0;
+  bottom: 0;
+}
+.grey
+{
+  background-color: #e4e4e4;
+  top: 0;
+  right: 0;
+}
