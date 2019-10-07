@@ -1,0 +1,48 @@
+@media (max-width: 1024px)
+{
+    .portfolio-item
+    {
+        flex-basis: 33%;
+    }
+    form input
+{
+    flex-basis: 45%;
+}
+@media (max-width: 600px)
+{   
+    nav
+    {
+        text-align: right;
+    }
+    nav ul
+    {
+        display: none;
+    }
+    .label-class
+    {
+        display: inline-block;
+        padding: 10px 15px;
+        color: #fff;
+    }
+    input[type="checkbox"]:checked ~ .mobile 
+    {
+        display: block;
+    }
+    nav ul li 
+    {
+        display: block;
+        text-align: right;
+
+    }
+    .portfolio-item
+    {
+        flex-basis: 50%;
+    }
+}
+@media (max-width: 480px)
+{
+    .portfolio-item
+    {
+        flex-basis: 100%;
+    }
+}

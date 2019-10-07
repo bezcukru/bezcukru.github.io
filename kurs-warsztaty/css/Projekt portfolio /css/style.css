@@ -1,0 +1,264 @@
+/* general style start */
+*
+{
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+hr
+{
+    height: 1px;
+    width: 50px;
+    background-color: #007bff;
+    border: 0;
+    margin: 5 auto;
+  }
+/* header style start */
+h1
+{
+    color: #007bff;   
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    position: relative;
+}
+h1, h2
+{
+    text-transform: uppercase;
+}
+header p
+{
+    padding: 20px;
+}
+header
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; 
+    background-image: url("../img/header.jpg"); 
+}
+.banner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+.button
+{
+    text-decoration: none;
+    display: inline-block;
+
+}
+.bannerbox
+{
+    flex-basis: 50px;
+}
+input[type="button"]
+{
+    padding: 10px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: solid 1px #007bff;
+    transition: all 0.2s;
+}
+input[type="button"]:hover
+{
+    background-color: #007bff;
+    color: #fff;
+}
+.dot
+{
+    color: #007bff;
+}
+input, .banner, h2{
+    color: #333;
+}
+/* navigation style */
+nav
+{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.nav-main
+{
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+}
+.navbox
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+nav li
+{
+    display: inline-block;
+    padding: 15px;
+}
+nav  a
+{
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+input[type="checkbox"], .label-class
+{
+    display: none;
+}
+/* about */
+.about
+{
+    color: #777; 
+}
+.about p
+{
+    font-size: 12px;
+    padding: 20px;
+    width: 60%;
+    display: inline-block;
+}
+.about img{
+    border-radius: 50%;
+    max-width: 80%;
+    height: auto;
+    padding: 10%;
+}
+h2
+{
+    color:#333;   
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.flexabout
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+}
+
+/* portfolio */
+.portfolio
+{
+    background-color: #f2f1ed;
+    width: 100%;
+}
+.portfolio-item
+{
+    /* height: 200px;
+    width: 200px; */
+    display: inline-block;
+    position: relative;
+    flex-basis: 25%;
+}
+.portfolio-item img
+{
+    width: 100%;
+    height: 100%;
+}
+.portfolio-item h3
+{
+    position: absolute;
+    top: 0;
+    line-height: 150px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.8);
+    opacity: 0;
+    color: #fff;
+    transition: all 2s;
+    align-self: center;
+}
+.portfolio-item h3:hover
+{
+    opacity: 1;
+}
+.flex-gallery
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+/* kontakt */
+.contact form
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+form textarea
+{
+    flex-basis: 100%;
+    text-align: left;
+    padding: 10px 15px;
+    height: 100px;
+    
+}
+form input
+{
+    box-sizing: border-box;
+    flex-basis: 45%;
+    text-align: left;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+.social
+{
+    font-size: 25px;
+    color: #007bff;
+    padding: 20px;
+}
+footer{
+    background-color: #f2f1ed;
+    padding: 20px;
+    width: 100%;
+    font-size: 12px;
+    color: #777;
+}
+/* .contactflex
+{
+    width: 60%;
+    margin: 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contactflex input
+{
+    flex-basis: 45%;
+    margin: 5px;
+}
+.contactflex textarea
+{
+    flex-basis: 100%;
+    width: 100%;
+    margin: 20px;
+}
+.contact input[type="button"]
+{
+    width: 150px;
+}
+.social
+{
+    font-size: 12px;
+    color: #007bff;
+} */
+
