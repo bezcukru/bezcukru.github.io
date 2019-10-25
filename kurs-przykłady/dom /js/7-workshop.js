@@ -1,4 +1,4 @@
-// Po klinieciu w button dodaj kolejn yellemnt do listy nienumerowanej - znacznik li z tekstem list item
+// Po klinieciu w button dodaj kolejn element do listy nienumerowanej - znacznik li z tekstem list item
 
 // WAZNE !!
 
