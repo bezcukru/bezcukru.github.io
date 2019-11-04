@@ -1,0 +1,22 @@
+footer {
+    padding: 50px;
+    background-color: $secondary-color;
+    .container {
+        justify-content: space-around;
+    }
+    .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    i {
+        color: $primary-color;
+        font-size: 2em;
+        padding: 20px;
+    }
+    p {
+        text-align: center;
+        margin-top: 30px;
+        padding: 50px;
+    }
+}

@@ -1,0 +1,28 @@
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.main-logo, .main-contact {
+   @include flex-align;
+}
+.main-logo {
+    h1 {
+    margin: 10px;
+}
+    i {
+    color: $primary-color;
+    font-size: 2em;
+    }
+}
+.main-contact {
+    i {
+        font-size: 1.5em;
+        margin-right: 20px;
+        transform: rotate(90deg);
+    }
+    span {
+        display: block;
+    }
+}

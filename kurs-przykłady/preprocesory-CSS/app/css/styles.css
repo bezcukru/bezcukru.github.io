@@ -1,0 +1,23 @@
+ul {
+  background-color: goldenrod; }
+  ul li {
+    background-color: green; }
+    ul li a {
+      color: #acb938; }
+
+.one {
+  background-color: blue;
+  padding: 10px;
+  font-size: 12px; }
+
+.two {
+  background-color: blue;
+  padding: 10px;
+  font-size: 12px;
+  color: red; }
+
+.three {
+  background-color: blue;
+  padding: 10px;
+  font-size: 12px;
+  background-color: #fff; }

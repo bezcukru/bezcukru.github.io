@@ -1,0 +1,21 @@
+ul {
+    background-color: goldenrod;
+    li {
+        background-color: green;
+        a {
+            color: $primary-color;
+        }
+    }
+} 
+.one {
+    @include button;
+}
+
+.two {
+    @include button;
+    color: red;
+}
+.three {
+    @include button;
+    background-color: #fff;
+}

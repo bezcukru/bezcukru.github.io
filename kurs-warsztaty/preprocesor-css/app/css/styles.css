@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0; }
+
+.primary {
+  color: #ecd407; }
+
+.container {
+  display: flex;
+  width: 1170px;
+  position: relative;
+  height: 100%;
+  margin: 0 auto;
+  justify-content: space-between; }
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  position: absolute; }
+
+.main-logo, .main-contact {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+
+.main-logo h1 {
+  margin: 10px; }
+
+.main-logo i {
+  color: #ecd407;
+  font-size: 2em; }
+
+.main-contact i {
+  font-size: 1.5em;
+  margin-right: 20px;
+  transform: rotate(90deg); }
+
+.main-contact span {
+  display: block; }
+
+.main-section {
+  background-image: url("../img/background.png");
+  height: 100vh;
+  min-height: 800px;
+  background-size: cover; }
+  .main-section .container {
+    justify-content: flex-end;
+    padding-right: 50px; }
+
+.form-container {
+  margin-top: 200px;
+  width: 400px; }
+  .form-container form {
+    background-color: #001d8a;
+    padding: 20px; }
+  .form-container input:not([type=submit]), .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; }
+  .form-container input[type=submit] {
+    padding: 20px;
+    background-color: #ecd407;
+    border: 0;
+    font-size: 1.1em;
+    cursor: pointer; }
+
+footer {
+  padding: 50px;
+  background-color: #292929; }
+  footer .container {
+    justify-content: space-around; }
+  footer .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  footer i {
+    color: #ecd407;
+    font-size: 2em;
+    padding: 20px; }
+  footer p {
+    text-align: center;
+    margin-top: 30px;
+    padding: 50px; }
+
+@media (max-width: 1170px) {
+  .container {
+    width: 992px; } }
+
+@media (max-width: 992px) {
+  .container {
+    width: 768px; } }
+
+@media (max-width: 768px) {
+  .container {
+    width: 600px; } }
+
+@media (max-width: 600px) {
+  .container {
+    width: 480px; } }
+
+@media (max-width: 480px) {
+  .container {
+    width: 320px; } }
